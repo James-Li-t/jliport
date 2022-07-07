@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className='text-white text-3xl font-bold underlinetext-3xl font-bold underline'>
-          THIS IS A DEPLOYMENT TEST
+        <h1 className='text-white text-5xl font-bold underlinetext-3xl font-bold '>
+        星街すいせい
         </h1>
         <h3 className = 'text-white font-bold'>
         THIS IS A PARAGRAPH
