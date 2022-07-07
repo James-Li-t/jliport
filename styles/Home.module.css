@@ -1,5 +1,5 @@
 .container {
-  background: black;
+  background: #1d1d1d;
   padding: 0 2rem;
 }
 
@@ -49,6 +49,7 @@
 .title,
 .description {
   text-align: center;
+  color:white;
 }
 
 .description {

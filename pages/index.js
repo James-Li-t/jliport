@@ -12,12 +12,20 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className='text-white text-5xl font-bold underlinetext-3xl font-bold '>
+        
+        <h1 className={styles.title}>
+        THIS IS A PLACEHOLDER PAGE
+        </h1>
+        
+        <h4 className={styles.title}>
+        <a href = "https://jliport.vercel.app/"> WHAT! </a>
+        </h4>
+    
+        <h1 className='m-8 text-white text-5xl underlinetext-3xl font-bold'>
         星街すいせい
         </h1>
-        <h3 className = 'text-white font-bold'>
-        THIS IS A PARAGRAPH
-        </h3>
+
+
       </main>
     </div>
   )
