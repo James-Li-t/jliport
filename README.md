@@ -1,5 +1,5 @@
 # Personal Portfolio Website
-### [**LINK**](https://jliport.vercel.app/)
+<center> ### [**LINK**](https://jliport.vercel.app/)</center>
 ---
-Created using [**Next.js**](https://nextjs.org/) and [**Tailwind CSS**](https://tailwindcss.com/)
-Deployed on [**Vercel**](https://vercel.com/)
+- Created using [**Next.js**](https://nextjs.org/) and [**Tailwind CSS**](https://tailwindcss.com/)
+- Deployed on [**Vercel**](https://vercel.com/)
