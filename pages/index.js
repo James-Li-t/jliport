@@ -18,7 +18,8 @@ export default function Home() {
         </h1>
         
         <h4 className={styles.title}>
-        <a href = "https://jliport.vercel.app/"> WHAT! </a>
+        and then I went..
+        <a href = "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A/featured" target="_blank">WHAT!</a>
         </h4>
     
         <h1 className='m-8 text-white text-5xl underlinetext-3xl font-bold'>
