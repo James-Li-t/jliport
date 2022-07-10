@@ -1,27 +1,32 @@
 .container {
-  @apply bg-stone-200 pt-8 pl-72 pr-72 overflow-hidden;
+  @apply opacity-100 transition-all ease-in duration-1000 bg-stone-200 pt-8 pl-72 pr-72;
 }
 
 .main {
-  @apply min-h-screen flex-auto justify-items-center object-center;}
+  @apply min-h-screen flex-auto justify-center items-center outline;
+}
 
 .title {
-  text-shadow:1px 1px 3px rgb(0 0 0 / 29%), 2px 4px 7px rgb(73 64 125 / 35%);
-  @apply text-7xl text-stone-800 text-left mx-8;  
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 29%), 2px 4px 7px rgb(73 64 125 / 35%);
+  @apply text-7xl text-stone-800 text-left mx-8;
 }
 
-.description{
-  @apply text-3xl text-stone-800 text-left font-thin mx-8; 
+.description {
+  @apply text-3xl text-stone-800 text-left font-thin mx-8;
 }
 
-.pgNormal{
+.pgNormal {
   @apply text-stone-700 text-left font-mono text-xl mx-8;
 }
 
-.icon{
+.icon {
   @apply mx-4 h-16 w-16 transition ease-in-out origin-bottom-right duration-300 hover:scale-125 hover:-rotate-12;
 }
 
-.wrapper{
+.wrapper {
   @apply flex justify-between items-center;
+}
+
+.section {
+  @apply my-12;
 }
