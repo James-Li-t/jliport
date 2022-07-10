@@ -37,17 +37,23 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.section}>
+          <h1 className={styles.subheader}> About. </h1>
           <p className={styles.pgNormal}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum&nbsp;
-            <a href="https://en.wikipedia.org/wiki/Drugs_controlled_by_the_UK_Misuse_of_Drugs_Act">
-              here.{" "}
-            </a>
+            I am James Li, well, at least for now.
+          </p>
+        </div>
+        <div className={styles.section}>
+          <h1 className={styles.subheader}> Projects. </h1>
+          <p className={styles.pgNormal}>
+            They say a man without duty is hollow, find purpose and find yourself.&nbsp; 
+            <a href ='https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A'>This is purpose</a>
+          </p>
+        </div>
+        <div className={styles.section}>
+          <h1 className={styles.subheader}> Contact. </h1>
+          <p className={styles.pgNormal}>
+            Email: Jamesli28000@gmail.com
+            <br/>Discord: jl#4037
           </p>
         </div>
       </main>

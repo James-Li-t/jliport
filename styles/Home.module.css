@@ -1,5 +1,5 @@
 .container {
-  @apply bg-stone-200 pt-8 pl-72 pr-72 hover:opacity-100 transition-opacity opacity-0 ease-in duration-1000;
+  @apply bg-stone-200 pt-8 pl-72 pr-72 animate-fadein;
 }
 
 .main {
@@ -16,7 +16,7 @@
 }
 
 .pgNormal {
-  @apply text-stone-700 text-left font-mono text-xl mx-8;
+  @apply text-stone-600 p-6 bg-gray-300 rounded-xl text-left font-mono text-xl mx-8;
 }
 
 .icon {
@@ -29,4 +29,8 @@
 
 .section {
   @apply my-12;
+}
+
+.subheader{
+  @apply text-3xl font-mono font-thin underline mx-8 py-4;
 }
