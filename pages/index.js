@@ -23,7 +23,7 @@ export default function Home() {
 
     </div>
     <p className='mx-8 text-gray-300 font-mono'>
-    Hey! I'm James Li, aspiring heroin conoissuer and Valorant extrodinaire 😛. You can find a list
+    Hey! I&apos;m James Li, aspiring heroin conoissuer and Valorant extrodinaire 😛. You can find a list
     of all the substances I abuse <a href="https://en.wikipedia.org/wiki/Drugs_controlled_by_the_UK_Misuse_of_Drugs_Act"> here. </a>
     </p>
     <div>
