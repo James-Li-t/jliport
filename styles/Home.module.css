@@ -1,9 +1,9 @@
 .container {
-  @apply opacity-100 transition-all ease-in duration-1000 bg-stone-200 pt-8 pl-72 pr-72;
+  @apply bg-stone-200 pt-8 pl-72 pr-72 hover:opacity-100 transition-opacity opacity-0 ease-in duration-1000;
 }
 
 .main {
-  @apply min-h-screen flex-auto justify-center items-center outline;
+  @apply min-h-screen flex-auto justify-center items-center;
 }
 
 .title {
