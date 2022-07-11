@@ -6,15 +6,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation:{
-        fadein: 'fadein 2s ease-in'
+      animation: {
+        fadein: "fadein 2s ease-in",
       },
-      keyframes:{
-        fadein:{
-          'from':{opacity:0},
-          'to':{opacity:1}
+      keyframes: {
+        fadein: {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
         },
-      }
+      },
     },
   },
   plugins: [],

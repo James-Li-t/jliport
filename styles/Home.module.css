@@ -1,13 +1,14 @@
 .container {
-  @apply min-h-screen min-w-full bg-stone-200 pt-8 xl:pl-72 xl:pr-72 animate-fadein;
+  @apply bg-gradient-to-tl from-stone-400 to-slate-200 pt-8 xl:pl-72 xl:pr-72 animate-fadein;
 }
 
 .main {
-  @apply h-full w-full flex-col justify-center items-center;
+  @apply flex-col justify-center items-center;
 }
 
 .title {
   text-shadow: 1px 1px 3px rgb(0 0 0 / 29%), 2px 4px 7px rgb(73 64 125 / 35%);
+  font-family: "Tahoma";
   @apply text-4xl xl:text-7xl text-stone-800 text-left mx-8;
 }
 
@@ -16,7 +17,15 @@
 }
 
 .pgNormal {
-  @apply text-stone-600 p-6 bg-gray-300 rounded-xl text-left font-mono text-xl mx-8;
+  @apply text-stone-700 p-6 bg-gray-300 rounded-xl text-left font-mono text-xl mx-8;
+}
+
+.lsNormal {
+  @apply list-none text-stone-700 p-6 bg-gray-300 rounded-xl text-left font-mono text-xl font-bold mx-8;
+}
+
+.slsNormal {
+  @apply list-disc text-stone-700 p-2 bg-gray-300 rounded-xl text-left font-mono text-xl font-thin italic mx-8;
 }
 
 .icon {
@@ -24,13 +33,13 @@
 }
 
 .wrapper {
-  @apply flex justify-between items-center ;
+  @apply flex justify-between items-center;
 }
 
 .section {
-  @apply my-12;
+  @apply py-8;
 }
 
-.subheader{
+.subheader {
   @apply text-3xl font-mono font-thin underline mx-8 py-4;
 }
