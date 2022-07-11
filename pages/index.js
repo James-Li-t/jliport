@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/github.svg" className={styles.icon} />
+                <img src="/github.svg" alt='' className={styles.icon} />
               </a>
             </div>
             <div>
@@ -31,7 +32,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/twitter.svg" className={styles.icon} />
+                <img src="/twitter.svg" alt='' className={styles.icon} />
               </a>
             </div>
           </div>
@@ -49,20 +50,20 @@ export default function Home() {
         </div>
         <div className={styles.section}>
           <h1 className={styles.subheader}> Projects. </h1>
-          <ul class={styles.lsNormal}>
+          <ul className={styles.lsNormal}>
           <li> Utility bot for the online messaging platform Discord <a href='https://github.com/James-Li-t/railgunbot'> [REPO] </a></li>
-            <ul class={styles.slsNormal}>
+            <ul className={styles.slsNormal}>
             <li> Written in python using the discord.py library, hosted on heroku </li>
             <li> Sources from multiple reliable APIs (Reddit,Giphy,Osu!)</li>
             </ul>
           <li> GUI Graphing Calculator <a href='https://github.com/James-Li-t/graphing-calculator'> [REPO] </a></li>
-            <ul class={styles.slsNormal}>
+            <ul className={styles.slsNormal}>
             <li> Written in Java, GUI built using NetBeans include </li>
             <li> Supports visualization of linear and quadratic equations</li>
             <li> Created for a Highschool Computer Science class summative</li>
             </ul>
           <li> The website you are currently browsing! <a href='https://github.com/James-Li-t/jliport'> [REPO]</a></li>
-            <ul class={styles.slsNormal}>
+            <ul className={styles.slsNormal}>
             <li> Written in Javascript using the Next.js React framework and Tailwind CSS for styling! </li>
             <li> Portfolio website which includes information relevant for a CV/Resume</li>
             <li> Hosted on Vercel</li>
