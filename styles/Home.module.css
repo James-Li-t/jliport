@@ -1,5 +1,5 @@
 .container {
-  @apply bg-gradient-to-tl from-stone-400 to-slate-200 pt-8 xl:pl-72 xl:pr-72;
+  @apply min-h-screen bg-gradient-to-tl from-stone-400 to-slate-200 pt-8 xl:pl-72 xl:pr-72;
 }
 
 .main {
@@ -25,15 +25,15 @@
 }
 
 .slsNormal {
-  @apply list-disc text-stone-700 p-2 bg-gray-300 rounded-xl text-left font-mono text-xl font-thin italic mx-8;
+  @apply list-disc text-stone-700 p-2 bg-gray-300 rounded-l text-left font-mono text-xl font-thin italic mx-8;
 }
 
 .icon {
-  @apply mx-4 h-16 w-16 overflow-hidden transition ease-in-out origin-bottom-right duration-300 hover:scale-125 hover:-rotate-12;
+  @apply m-4 h-16 w-16 transition ease-in-out origin-bottom-right duration-300 hover:scale-125 hover:-rotate-12;
 }
 
 .wrapper {
-  @apply flex xl:justify-between xl:items-center items-start;
+  @apply flex justify-between xl:items-center items-start overflow-auto;
 }
 
 .section {
@@ -41,5 +41,9 @@
 }
 
 .subheader {
-  @apply text-3xl font-mono font-thin underline mx-8 py-4;
+  @apply text-3xl font-mono font-thin underline px-8 py-4;
+}
+
+.links {
+  @apply text-xl font-mono font-thin my-10 mx-4 text-blue-600 hover:underline hover:bg-blue-100;
 }

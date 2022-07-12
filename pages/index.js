@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,12 +12,20 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.wrapper}>
-          <div>
+          <div className='my-2'>
             <h1 className={styles.title}>JAMES LI</h1>
             <h1 className={styles.description}>welcome to my homepage</h1>
           </div>
           <div className="flex flex-row">
-            <div>
+            <div className="flex flex-row mx-10">
+              <Link href="/journal/hub">
+              <a className={styles.links}>[JOURNAL]</a>
+              </Link>
+              <Link href="/resources">
+              <a className={styles.links}>[RESOURCES]</a>
+              </Link>
+            </div>
+            <div className="flex flex-row mx-6">
               <a
                 href="https://github.com/James-Li-t"
                 target="_blank"
@@ -24,8 +33,6 @@ export default function Home() {
               >
                 <img src="/github.svg" alt='' className={styles.icon} />
               </a>
-            </div>
-            <div>
               <a
                 href="https://twitter.com/j4m3sli"
                 target="_blank"
