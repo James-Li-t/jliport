@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -58,7 +57,7 @@ export default function Home() {
             </ul>
           <li> GUI Graphing Calculator <a href='https://github.com/James-Li-t/graphing-calculator'> [REPO] </a></li>
             <ul className={styles.slsNormal}>
-            <li> Written in Java, GUI built using NetBeans include </li>
+            <li> Written in Java, GUI built using NetBeans IDE </li>
             <li> Supports visualization of linear and quadratic equations</li>
             <li> Created for a Highschool Computer Science class summative</li>
             </ul>
@@ -84,7 +83,7 @@ export default function Home() {
             Discord: jl#4037
           </p>
         </div>
-      </main>
+        </main>
     </div>
   );
 }

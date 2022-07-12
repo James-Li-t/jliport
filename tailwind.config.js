@@ -7,12 +7,18 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fadein: "fadein 2s ease-in",
+        fadein: "fadein 2s ease-in-out",
       },
       keyframes: {
         fadein: {
-          from: { opacity: 0 },
-          to: { opacity: 1 },
+         from: { 
+           opacity: 0,
+           transform: 'scale(0.7)'
+          },
+          to: { 
+           opacity: 1,
+           transform: 'scale(1)'
+          },
         },
       },
     },
