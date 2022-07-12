@@ -1,9 +1,9 @@
 .container {
-  @apply bg-gradient-to-tl from-stone-400 to-slate-200 pt-8 xl:pl-72 xl:pr-72 animate-fadein;
+  @apply bg-gradient-to-tl from-stone-400 to-slate-200 pt-8 xl:pl-72 xl:pr-72;
 }
 
 .main {
-  @apply flex-col justify-center items-center;
+  @apply flex-col justify-center items-center animate-fadein;
 }
 
 .title {
