@@ -29,7 +29,7 @@
 }
 
 .icon {
-  @apply m-4 h-16 w-16 transition ease-in-out origin-bottom-right duration-300 hover:scale-125 hover:-rotate-12;
+  @apply my-8 mx-4 transition ease-in-out origin-bottom-right duration-300 scale-125 hover:-rotate-12;
 }
 
 .wrapper {
