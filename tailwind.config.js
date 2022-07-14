@@ -11,13 +11,13 @@ module.exports = {
       },
       keyframes: {
         fadein: {
-         from: { 
-           opacity: 0,
-           transform: 'scale(0.7)'
+          from: {
+            opacity: 0,
+            transform: "scale(0.7)",
           },
-          to: { 
-           opacity: 1,
-           transform: 'scale(1)'
+          to: {
+            opacity: 1,
+            transform: "scale(1)",
           },
         },
       },

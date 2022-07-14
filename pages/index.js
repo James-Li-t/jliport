@@ -1,10 +1,6 @@
 import Head from "next/head";
-import Image from "next/image"
-import Link from "next/link";
+import Header from "../components/header";
 import styles from "../styles/Home.module.css";
-import twitter from "../public/twitter.svg"
-import github from "../public/github.svg"
-import linkedin from "../public/linkedin.svg"
 
 export default function Home() {
   return (
@@ -15,51 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.wrapper}>
-          <div className='my-2'>
-            <h1 className={styles.title}>JAMES LI</h1>
-            <h1 className={styles.description}>welcome to my homepage</h1>
-          </div>
-          <div className="flex flex-row">
-            <div className="flex flex-row mx-10">
-              <Link href="/journal">
-              <a className={styles.links}>[JOURNAL]</a>
-              </Link>
-              <Link href="/resources">
-              <a className={styles.links}>[RESOURCES]</a>
-              </Link>
-            </div>
-            <div className="flex flex-row mx-6">
-              <a
-                href="https://github.com/James-Li-t"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <div className={styles.icon}>
-              <Image src={github} height={48} width={48} alt="" layout='fixed'/>
-              </div>
-              </a>
-              <a
-                href="https://twitter.com/j4m3sli"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <div className={styles.icon}>
-              <Image src={twitter} height={48} width={48} alt="" layout='fixed'/>
-              </div>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/james-li-3675a91b4/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <div className={styles.icon}>
-              <Image src={linkedin} height={48} width={48} alt="" layout='fixed'/>
-              </div>
-              </a>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className={styles.section}>
           <h1 className={styles.subheader}> About. </h1>
           <p className={styles.pgNormal}>
@@ -67,37 +19,64 @@ export default function Home() {
             interests/passions regarding anything in the computer science space
             (currently focusing on Web Development using React.js). I also have
             interests in digital content creation, such as video editing, motion
-            design etc. My hobbies include gaming, VTubers, eating out, and going on
-            urban adventures around my city! 🗿
+            design etc. My hobbies include gaming, VTubers, eating out, and
+            going on urban adventures around my city! 🗿
           </p>
         </div>
         <div className={styles.section}>
           <h1 className={styles.subheader}> Projects. </h1>
           <ul className={styles.lsNormal}>
-          <li> Utility bot for the online messaging platform Discord <a href='https://github.com/James-Li-t/railgunbot'> [REPO] </a></li>
+            <li>
+              {" "}
+              Utility bot for the online messaging platform Discord{" "}
+              <a href="https://github.com/James-Li-t/railgunbot"> [REPO] </a>
+            </li>
             <ul className={styles.slsNormal}>
-            <li> Written in python using the discord.py library, hosted on heroku </li>
-            <li> Sources from multiple reliable APIs (Reddit,Giphy,Osu!)</li>
+              <li>
+                {" "}
+                Written in python using the discord.py library, hosted on heroku{" "}
+              </li>
+              <li> Sources from multiple reliable APIs (Reddit,Giphy,Osu!)</li>
             </ul>
-          <li> GUI Graphing Calculator <a href='https://github.com/James-Li-t/graphing-calculator'> [REPO] </a></li>
+            <li>
+              {" "}
+              GUI Graphing Calculator{" "}
+              <a href="https://github.com/James-Li-t/graphing-calculator">
+                {" "}
+                [REPO]{" "}
+              </a>
+            </li>
             <ul className={styles.slsNormal}>
-            <li> Written in Java, GUI built using NetBeans IDE </li>
-            <li> Supports visualization of linear and quadratic equations</li>
-            <li> Created for a Highschool Computer Science class summative</li>
+              <li> Written in Java, GUI built using NetBeans IDE </li>
+              <li> Supports visualization of linear and quadratic equations</li>
+              <li>
+                {" "}
+                Created for a Highschool Computer Science class summative
+              </li>
             </ul>
-          <li> The website you are currently browsing! <a href='https://github.com/James-Li-t/jliport'> [REPO]</a></li>
+            <li>
+              {" "}
+              The website you are currently browsing!{" "}
+              <a href="https://github.com/James-Li-t/jliport"> [REPO]</a>
+            </li>
             <ul className={styles.slsNormal}>
-            <li> Written in Javascript using the Next.js React framework and Tailwind CSS for styling! </li>
-            <li> Portfolio website which includes information relevant for a CV/Resume</li>
-            <li> Hosted on Vercel</li>
+              <li>
+                {" "}
+                Written in Javascript using the Next.js React framework and
+                Tailwind CSS for styling!{" "}
+              </li>
+              <li>
+                {" "}
+                Portfolio website which includes information relevant for a
+                CV/Resume
+              </li>
+              <li> Hosted on Vercel</li>
             </ul>
           </ul>
         </div>
         <div className={styles.section}>
           <h1 className={styles.subheader}> Work Experience.</h1>
-          <p className={styles.pgNormal}>
-          WIP
-          </p>
+          <p className={styles.pgNormal}>WIP</p>
         </div>
         <div className={styles.section}>
           <h1 className={styles.subheader}> Contact. </h1>
@@ -107,7 +86,7 @@ export default function Home() {
             Discord: jl#4037
           </p>
         </div>
-        </main>
+      </main>
     </div>
   );
 }
