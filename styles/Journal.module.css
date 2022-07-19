@@ -1,22 +1,38 @@
 .card {
-  @apply flex flex-col justify-start align-middle outline-stone-200 outline  
+  @apply flex flex-col justify-start align-middle outline-stone-200   
   py-8 m-8 bg-gradient-to-br from-stone-300 to-slate-100
   rounded-lg shadow-lg;
+  animation-name: animateIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .title {
-  @apply px-4 font-mono font-bold text-2xl text-center underline;
+  @apply px-8 mx-4 font-mono font-bold text-2xl text-center ;
 }
 
 .description {
-  @apply px-4 pt-8 font-serif text-gray-800;
+  @apply px-8 pt-8 text-gray-800;
 }
 
 .date {
-  @apply px-4 pt-8 font-serif text-sm italic;
+  @apply px-8 pt-8 font-serif text-sm italic;
 }
 
 .read {
-  @apply px-4 font-bold bg-slate-100 rounded-lg border border-slate-800 
-  transition-all ease-in-out duration-500 hover:scale-110 hover:bg-sky-100;
+  @apply px-4 py-2 bg-indigo-500 text-white rounded-lg font-semibold 
+  transition-all ease-in-out duration-500 hover:scale-110 hover:bg-indigo-700;
 }
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: translateY(5vh);
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+

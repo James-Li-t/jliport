@@ -17,8 +17,8 @@ export default function Hub() {
         <Header />
         <div className="animate-fadein">
           <h1 className={stMain.subheader}>WIP</h1>
-          <Footer />
         </div>
+      <Footer/>
       </main>
     </div>
   );

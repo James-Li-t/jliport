@@ -11,8 +11,8 @@ export default function Post() {
       <main className={stMain.main}>
         <Header />
         <div className="animate-fadein">
-          <Footer />
         </div>
+        <Footer/>
       </main>
     </div>
   );

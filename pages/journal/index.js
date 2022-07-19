@@ -16,7 +16,7 @@ export default function Journal() {
       </Head>
       <main className={stMain.main}>
         <Header />
-        <div className="animate-fadein ">
+        <div>
           <div className="grid gap-10 grid-flow-row grid-cols-2 ">
             {Pdata.map((p) => (
               <div key={p.id} className={styles.card}>
@@ -26,7 +26,7 @@ export default function Journal() {
                   <h1 className={styles.date}> {p.date}</h1>
                   <Link href={p.link}>
                     <div className="mx-8">
-                      <button className={styles.read}>READ</button>
+                      <button className={styles.read}>Read</button>
                     </div>
                   </Link>
                 </div>

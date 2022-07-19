@@ -95,7 +95,7 @@ export default function Home() {
                   Portfolio website which includes information relevant for a
                   CV/Resume
                 </li>
-                <li> Hosted on Vercel</li>
+                <li> Deployed on Vercel</li>
               </ul>
             </ul>
           </div>
@@ -111,8 +111,8 @@ export default function Home() {
               Discord: jl#4037
             </p>
           </div>
-          <Footer />
         </div>
+        <Footer/>
       </main>
     </div>
   );
