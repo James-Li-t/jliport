@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import twitter from "../public/twitter.svg";
 import github from "../public/github.svg";
+import kofi from "../public/kofi_button_stroke.png";
 import linkedin from "../public/linkedin.svg";
 
 const Header = () => {

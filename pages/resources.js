@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import stMain from "../styles/Home.module.css";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import styles from "../styles/Journal.module.css";
 
 export default function Hub() {
@@ -14,8 +15,9 @@ export default function Hub() {
       </Head>
       <main className={stMain.main}>
         <Header />
-        <div>
+        <div className="animate-fadein">
           <h1 className={stMain.subheader}>WIP</h1>
+          <Footer />
         </div>
       </main>
     </div>

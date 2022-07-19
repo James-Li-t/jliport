@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "Programming for monkeys!",
+    "date": "July 18th, 2022",
+    "desc": "Why do we code? How do we use code to solve problems? Could even a monkey learn to be a programmer?!",
+    "link": "journal/code-monkey"
+  },
+  {
+    "id": 1,
+    "title": "日本語？ How to Japanese.",
+    "date": "July 19th, 2022",
+    "desc": "Learn what they are saying in your favorite animes!",
+    "link": "journal/nihongo101"
+  }
+]

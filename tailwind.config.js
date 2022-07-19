@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fadein: "fadein 2s ease-in-out",
+        fadein: "fadein 1.5s ease-in-out",
       },
       keyframes: {
         fadein: {

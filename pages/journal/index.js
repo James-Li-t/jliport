@@ -2,7 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import stMain from "../../styles/Home.module.css";
 import Header from "../../components/header.js";
+import Footer from "../../components/footer";
 import styles from "../../styles/Journal.module.css";
+import Pdata from "../../public/posts.json";
 
 export default function Journal() {
   return (
@@ -14,8 +16,24 @@ export default function Journal() {
       </Head>
       <main className={stMain.main}>
         <Header />
-        <div>
-          <h1 className={stMain.subheader}>WIP</h1>
+        <div className="animate-fadein ">
+          <div className="grid gap-10 grid-flow-row grid-cols-2 ">
+            {Pdata.map((p) => (
+              <div key={p.id} className={styles.card}>
+                <h1 className={styles.title}> {p.title}</h1>
+                <p className={styles.description}>{p.desc}</p>
+                <div className="mt-auto flex flex-row items-end justify-between">
+                  <h1 className={styles.date}> {p.date}</h1>
+                  <Link href={p.link}>
+                    <div className="mx-8">
+                      <button className={styles.read}>READ</button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+          <Footer />
         </div>
       </main>
     </div>

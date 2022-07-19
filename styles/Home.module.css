@@ -3,7 +3,7 @@
 }
 
 .main {
-  @apply flex-col justify-center items-center animate-fadein;
+  @apply flex-col justify-center items-center overflow-auto;
 }
 
 .title {
@@ -41,7 +41,7 @@
 }
 
 .subheader {
-  @apply text-3xl font-mono font-thin underline px-8 py-4;
+  @apply text-4xl font-extralight underline px-8 py-4;
 }
 
 .links {
